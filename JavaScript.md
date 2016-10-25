@@ -3,6 +3,7 @@
 ## Table of Contents
 
   1. [Binding this](#binding-this)
+  1. [Initial state](#initial-state)
   
 ## Binding this
 
@@ -42,6 +43,21 @@ class A {
   constructor() {
     this.method = this.method.bind(this);
   }
+}
+```
+
+**[⬆ back to top](#table-of-contents)**
+
+
+## Initial state
+
+We recommend setting the initial state outside the constructor.
+
+```js
+class A {
+  state = {
+    value: 1,
+  };
 }
 ```
 

@@ -4,11 +4,11 @@
 
 ## Table of Contents
 
-  1. [Usage](#usage)
-  2. [JavaScript](#javascript)
-    1. [Binding `this`](#binding-this)
-    2. [Initial state](#initial-state)
-  3. [Local Development](#javascript)
+- [Usage](#usage)
+- [JavaScript](#javascript)
+  - [Binding `this`](#binding-this)
+  - [Initial state](#initial-state)
+- [Local Development](#javascript)
 
 ## Usage
 

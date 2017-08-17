@@ -1,0 +1,41 @@
+{
+  "name": "@ueno/stylelint-config",
+  "version": "0.0.3",
+  "description": "Ueno's stylelint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ueno-llc/stylelint-config.git"
+  },
+  "keywords": [
+    "@ueno/stylelint-config"
+  ],
+  "author": "ueno. <hi@ueno.co> (http://ueno.co)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ueno-llc/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/ueno-llc/stylelint-config#readme",
+  "dependencies": {
+    "stylelint": "^8.0.0",
+    "stylelint-config-primer": "^2.0.0",
+    "stylelint-order": "0.4.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "xo": "^0.18.1"
+  },
+  "peerDependencies": {
+    "stylelint": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "xo": {
+    "space": true
+  }
+}

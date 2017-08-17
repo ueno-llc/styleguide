@@ -1,0 +1,11 @@
+{
+	"scripts": {
+		"bootstrap": "lerna bootstrap",
+		"postinstall": "npm run bootstrap",
+		"publish": "lerna publish",
+		"test": "lerna run test"
+	},
+	"devDependencies": {
+		"lerna": "^2.0.0"
+	}
+}

@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/ueno-llc/stylelint-config#readme",
   "dependencies": {
-    "stylelint-config-primer": "1.4.0",
+    "stylelint": "^8.0.0",
+    "stylelint-config-primer": "^2.0.0",
     "stylelint-order": "0.4.4"
   },
   "devDependencies": {
@@ -29,7 +30,7 @@
     "xo": "^0.18.1"
   },
   "peerDependencies": {
-    "stylelint": "^7.10.1"
+    "stylelint": "^8.0.0"
   },
   "engines": {
     "node": ">=4"

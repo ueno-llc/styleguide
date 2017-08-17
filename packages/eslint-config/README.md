@@ -24,7 +24,7 @@ There's also a React Native flavor:
 
 ```json
 {
-  "extends": "@ueno/react-native"
+  "extends": "@ueno/eslint-config/react-native"
 }
 ```
 

@@ -1,6 +1,6 @@
 # Ueno Style Guide
 
-[![Travis](https://img.shields.io/travis/ueno-llc/eslint-config.svg?maxAge=2592000)](https://travis-ci.org/ueno-llc/eslint-config)
+[![Travis](https://img.shields.io/travis/ueno-llc/eslint-config.svg?maxAge=2592000)](https://travis-ci.org/ueno-llc/styleguide)
 
 ## Table of Contents
 

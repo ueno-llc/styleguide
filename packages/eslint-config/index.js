@@ -45,6 +45,9 @@ module.exports = {
     'no-param-reassign': ['error', {
       props: false
     }],
+    'react/no-unused-state': ['error'],
+    'react/default-props-match-prop-types': ['error'],
+    'react/no-typos': ['error']
   },
   settings: {
     'import/resolver': {

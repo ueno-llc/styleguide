@@ -45,9 +45,13 @@ module.exports = {
     'no-param-reassign': ['error', {
       props: false
     }],
-    'react/no-unused-state': ['error'],
-    'react/default-props-match-prop-types': ['error'],
-    'react/no-typos': ['error']
+    "function-paren-newline": ["error", "consistent"],
+    "object-curly-newline": ["error", { "consistent": true }],
+
+    // https://github.com/evcohen/eslint-plugin-jsx-a11y/issues/339
+    "jsx-a11y/anchor-is-valid": [ "error", {
+      "components": [ "a" ],
+    }]
   },
   settings: {
     'import/resolver': {

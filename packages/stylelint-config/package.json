@@ -1,6 +1,6 @@
 {
   "name": "@ueno/stylelint-config",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "Ueno's stylelint config",
   "main": "index.js",
   "scripts": {
@@ -20,17 +20,16 @@
   },
   "homepage": "https://github.com/ueno-llc/stylelint-config#readme",
   "dependencies": {
-    "stylelint": "^8.0.0",
-    "stylelint-config-primer": "^2.0.0",
-    "stylelint-order": "0.4.4"
+    "stylelint-config-primer": "2.1.0",
+    "stylelint-order": "0.7.0"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0",
-    "xo": "^0.18.1"
+    "chai": "4.1.2",
+    "mocha": "3.5.3",
+    "xo": "0.18.2"
   },
   "peerDependencies": {
-    "stylelint": "^8.0.0"
+    "stylelint": "8.1.1"
   },
   "engines": {
     "node": ">=4"

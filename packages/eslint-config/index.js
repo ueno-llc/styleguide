@@ -9,9 +9,6 @@ module.exports = {
     node: true,
     jest: true
   },
-  ecmaFeatures: {
-    defaultParams: true
-  },
   rules: {
     // A `.jsx` extension is not required for files containing JSX.
     'react/jsx-filename-extension': 0,
@@ -33,7 +30,6 @@ module.exports = {
     'import/no-named-as-default': 0,
     'import/no-extraneous-dependencies': 0,
     'class-methods-use-this': 0,
-    // For proper unit testing, remove next line.
     'react/forbid-prop-types': ['error', {
       forbid: ['any']
     }],
@@ -48,6 +44,13 @@ module.exports = {
     // Allow reassigning props of objects, e.g. `foo.bar = 2`
     'no-param-reassign': ['error', {
       props: false
+    }],
+    "function-paren-newline": ["error", "consistent"],
+    "object-curly-newline": ["error", { "consistent": true }],
+
+    // https://github.com/evcohen/eslint-plugin-jsx-a11y/issues/339
+    "jsx-a11y/anchor-is-valid": [ "error", {
+      "components": [ "a" ],
     }]
   },
   settings: {

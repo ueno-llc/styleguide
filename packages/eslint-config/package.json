@@ -1,6 +1,6 @@
 {
   "name": "@ueno/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ueno's eslint config",
   "main": "index.js",
   "scripts": {

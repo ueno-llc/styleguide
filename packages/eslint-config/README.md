@@ -20,7 +20,7 @@ Reference the config in your `.eslintrc`:
 }
 ```
 
-If you don't what to include the react rules:
+If you don't want to include the React rules:
 
 ```json
 {

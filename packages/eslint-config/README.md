@@ -20,6 +20,14 @@ Reference the config in your `.eslintrc`:
 }
 ```
 
+If you don't want to include the React rules:
+
+```json
+{
+  "extends": "@ueno/eslint-config/base"
+}
+```
+
 There's also a React Native flavor:
 
 ```json

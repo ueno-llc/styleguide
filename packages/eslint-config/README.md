@@ -7,7 +7,7 @@
 ## Installation
 
 ```bash
-npm install @ueno/eslint-config
+yarn add @ueno/eslint-config
 ```
 
 ## Usage
@@ -41,8 +41,8 @@ There's also a React Native flavor:
 ```bash
 git clone https://github.com/ueno-llc/styleguide
 cd styleguide/packages/eslint-config
-npm install
-npm test
+yarn install
+yarn test
 ```
 
 ## License

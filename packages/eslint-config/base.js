@@ -15,8 +15,8 @@ module.exports = {
         ],
         moduleDirectory: [
           'node_modules',
-        ]
-      }
-    }
-  }
+        ],
+      },
+    },
+  },
 }

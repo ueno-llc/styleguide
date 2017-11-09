@@ -14,6 +14,6 @@ module.exports = deepmerge(baseConfig, {
     'import/no-unresolved': 0,
     // Add React Native-specific rules
     'react-native/no-unused-styles': 0,
-    'react-native/no-inline-styles': 0
-  }
+    'react-native/no-inline-styles': 0,
+  },
 });

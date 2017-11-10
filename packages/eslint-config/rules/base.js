@@ -15,7 +15,7 @@ module.exports = {
     'global-require': 0,
 
     // Make sure we have a blank line after imports block
-    'import/newline-after-import': ['error'],
+    'import/newline-after-import': 'error',
 
     // We sometimes have components with same name on the same file, so we have
     // to rename one of the default import
@@ -41,13 +41,14 @@ module.exports = {
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
 
     // Requires that either both curly braces, or neither, directly enclose newlines
-    'object-curly-newline': ['error', 'consistent'],
+    'object-curly-newline': ['error', { consistent: true }],
 
     // Disallows empty lines at the beginning and ending of block statements and classes
     'padded-blocks': 0,
 
     // We want to make sure we have a blank line after a block of const
-    'padding-line-between-statements': ['error',
+    'padding-line-between-statements': [
+      'error',
       { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*' },
       { blankLine: 'any', prev: ['const', 'let', 'var'], next: ['const', 'let', 'var'] },
     ],

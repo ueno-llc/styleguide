@@ -19,17 +19,6 @@
     "url": "https://github.com/ueno-llc/eslint-config/issues"
   },
   "homepage": "https://github.com/ueno-llc/eslint-config#readme",
-  "devDependencies": {
-    "chai": "4.1.2",
-    "mocha": "3.5.3",
-    "xo": "0.18.2"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "xo": {
-    "space": true
-  },
   "dependencies": {
     "babel-eslint": "8.0.1",
     "deepmerge": "1.5.2",
@@ -42,7 +31,14 @@
     "eslint-plugin-react": "7.4.0",
     "eslint-plugin-react-native": "3.1.0"
   },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "mocha": "3.5.3"
+  },
   "peerDependencies": {
     "eslint": "4.9.0"
+  },
+  "engines": {
+    "node": ">=4"
   }
 }

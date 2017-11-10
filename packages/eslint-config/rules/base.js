@@ -40,11 +40,15 @@ module.exports = {
     // Allow ++ in for loops
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
 
+    // Force a line break after the observable statement
+    // "observable-line-break": 2, // WIP
+
     // Requires that either both curly braces, or neither, directly enclose newlines
     'object-curly-newline': ['error', { consistent: true }],
 
-    // Disallows empty lines at the beginning and ending of block statements and classes
-    'padded-blocks': 0,
+    // Force a blank line after the class declaration
+    // "padded-blocks": ["error", { "classes": "top" }], // WIP
+    "padded-blocks": 0,
 
     // We want to make sure we have a blank line after a block of const
     'padding-line-between-statements': [

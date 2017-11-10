@@ -43,6 +43,12 @@ module.exports = {
     // Disallows empty lines at the beginning and ending of block statements and classes
     'padded-blocks': 0,
 
+    // We want to make sure we have a blank line after a block of const
+    'padding-line-between-statements': ['error',
+      { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*' },
+      { blankLine: 'any', prev: ['const', 'let', 'var'], next: ['const', 'let', 'var'] },
+    ],
+
     // Allow reassigning props of objects, e.g. `foo.bar = 2`
     'no-param-reassign': ['error', { props: false }],
   },

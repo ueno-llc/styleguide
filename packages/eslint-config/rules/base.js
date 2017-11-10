@@ -14,6 +14,9 @@ module.exports = {
     // We use global requires in various places, e.g. code splitting instances.
     'global-require': 0,
 
+    // Make sure we have a blank line after imports block
+    'import/newline-after-import': ['error'],
+
     // We sometimes have components with same name on the same file, so we have
     // to rename one of the default import
     'import/no-named-as-default': 0,

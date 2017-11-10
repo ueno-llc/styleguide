@@ -15,7 +15,7 @@ module.exports = {
     'global-require': 0,
 
     // Make sure we have a blank line after imports block
-    'import/newline-after-import': 'error',
+    'import/newline-after-import': 2,
 
     // We sometimes have components with same name on the same file, so we have
     // to rename one of the default import

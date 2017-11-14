@@ -20,11 +20,11 @@
   },
   "homepage": "https://github.com/ueno-llc/stylelint-config#readme",
   "dependencies": {
+    "chai": "4.1.2",
     "stylelint-config-primer": "2.1.0",
     "stylelint-order": "0.7.0"
   },
   "devDependencies": {
-    "chai": "4.1.2",
     "mocha": "3.5.3"
   },
   "peerDependencies": {

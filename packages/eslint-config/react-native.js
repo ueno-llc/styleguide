@@ -22,4 +22,4 @@ module.exports = {
     // We allow inline style
     'react-native/no-inline-styles': 0,
   },
-}
+};

@@ -34,13 +34,13 @@ module.exports = {
         extensions: [
           '.js',
           '.json',
-          '.scss'
+          '.scss',
         ],
         moduleDirectory: [
           'node_modules',
-          'shared'
-        ]
-      }
-    }
-  }
+          'shared',
+        ],
+      },
+    },
+  },
 };

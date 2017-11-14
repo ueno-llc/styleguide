@@ -1,8 +1,6 @@
-/* eslint-env mocha */
-
 'use strict';
 
-const expect = require('chai').expect;
+const { expect } = require('chai');
 const reactNativeConfig = require('./react-native');
 const baseConfig = require('.');
 

@@ -28,7 +28,7 @@ module.exports = {
     'internal/observable-line-break': 2,
 
     // Force a blank line after the class declaration
-    'internal/padded-blocks': ['error', { 'classes': 'top' }],
+    'internal/padded-blocks': ['error', { classes: 'top' }],
 
     // Don't check the import of external modules that are not declared in the package.json
     // 'import/no-extraneous-dependencies': 0, // Not sure about this rule
@@ -71,4 +71,4 @@ module.exports = {
     node: true,
     jest: true,
   },
-}
+};

@@ -1,7 +1,9 @@
 'use strict';
 
 module.exports = {
-  // rulesdir: './',
+  plugins: [
+    'internal',
+  ],
   rules: {
     // We are not asking to specify a value to the return statement if not necessary
     'consistent-return': 0,
@@ -22,8 +24,14 @@ module.exports = {
     // to rename one of the default import
     'import/no-named-as-default': 0,
 
+    // Force a line break after the observable statement
+    'internal/observable-line-break': 2,
+
+    // Force a blank line after the class declaration
+    'internal/padded-blocks': ['error', { 'classes': 'top' }],
+
     // Don't check the import of external modules that are not declared in the package.json
-    // 'import/no-extraneous-dependencies': 0,
+    // 'import/no-extraneous-dependencies': 0, // Not sure about this rule
 
     // Ignore linebreak style. The CRLF / LF endings wont matter if a windows user correctly
     // converts CRLF to LF upon commits; otherwise there are errors every line.
@@ -41,15 +49,11 @@ module.exports = {
     // Allow ++ in for loops
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
 
-    // Force a line break after the observable statement
-    // "observable-line-break": 2, // WIP
-
     // Requires that either both curly braces, or neither, directly enclose newlines
     'object-curly-newline': ['error', { consistent: true }],
 
-    // Force a blank line after the class declaration
-    // "padded-blocks": ["error", { "classes": "top" }], // WIP
-    "padded-blocks": 0,
+    // Since we have our internal padded-blocks plugin, we don't want any conflicts
+    'padded-blocks': 0,
 
     // We want to make sure we have a blank line after a block of const
     'padding-line-between-statements': [

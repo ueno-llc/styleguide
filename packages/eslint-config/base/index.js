@@ -30,9 +30,6 @@ module.exports = {
     // Force a blank line after the class declaration
     'internal/padded-blocks': ['error', { classes: 'top' }],
 
-    // Don't check the import of external modules that are not declared in the package.json
-    // 'import/no-extraneous-dependencies': 0, // Not sure about this rule
-
     // Ignore linebreak style. The CRLF / LF endings wont matter if a windows user correctly
     // converts CRLF to LF upon commits; otherwise there are errors every line.
     'linebreak-style': 0,

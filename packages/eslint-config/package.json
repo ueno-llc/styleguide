@@ -21,7 +21,6 @@
   "homepage": "https://github.com/ueno-llc/eslint-config#readme",
   "dependencies": {
     "babel-eslint": "8.0.1",
-    "deepmerge": "1.5.2",
     "eslint-config-airbnb": "16.0.0",
     "eslint-config-airbnb-base": "12.1.0",
     "eslint-import-resolver-webpack": "0.8.3",

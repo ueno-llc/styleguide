@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = {
+  // rulesdir: './',
   rules: {
     // We are not asking to specify a value to the return statement if not necessary
     'consistent-return': 0,

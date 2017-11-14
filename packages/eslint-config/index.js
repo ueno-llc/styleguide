@@ -4,7 +4,7 @@ module.exports = {
   parser: 'babel-eslint',
   extends: [
     'airbnb',
-    require.resolve('./rules/base'),
+    require.resolve('./base/index'),
   ],
   rules: {
     // We forbid the use of the any proptypes

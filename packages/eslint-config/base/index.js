@@ -35,7 +35,7 @@ module.exports = {
     'linebreak-style': 0,
 
     // We want a blank line between class members
-    'lines-between-class-members': ['error', 'always'],
+    'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
 
     // We use arrow function
     'no-confusing-arrow': 0,

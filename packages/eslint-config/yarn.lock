@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@ueno/eslint-plugin-internal@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@ueno/eslint-plugin-internal/-/eslint-plugin-internal-1.0.1.tgz#01706347074106c10a80b4ea253f63749d3527ac"
+
 ansi-styles@^3.1.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-3.2.0.tgz#c159b8d5be0f9e5a6f346dab94f16ce022161b88"
@@ -373,10 +377,6 @@ deep-eql@^3.0.0:
   dependencies:
     type-detect "^4.0.0"
 
-deepmerge@1.5.2:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
-
 define-properties@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/define-properties/-/define-properties-1.1.2.tgz#83a73f2fea569898fb737193c8f873caf6d45c94"
@@ -541,9 +541,6 @@ eslint-plugin-import@2.7.0:
     lodash.cond "^4.3.0"
     minimatch "^3.0.3"
     read-pkg-up "^2.0.0"
-
-"eslint-plugin-internal@file:rules":
-  version "0.0.0"
 
 eslint-plugin-jsx-a11y@6.0.2:
   version "6.0.2"

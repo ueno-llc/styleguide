@@ -2,7 +2,7 @@
 
 module.exports = {
   plugins: [
-    'internal',
+    '@ueno/internal',
   ],
   rules: {
     // We are not asking to specify a value to the return statement if not necessary
@@ -25,10 +25,10 @@ module.exports = {
     'import/no-named-as-default': 0,
 
     // Force a line break after the observable statement
-    'internal/observable-line-break': 2,
+    '@ueno/internal/observable-line-break': 2,
 
     // Force a blank line after the class declaration
-    'internal/padded-blocks': ['error', { classes: 'top' }],
+    '@ueno/internal/padded-blocks': ['error', { classes: 'top' }],
 
     // Ignore linebreak style. The CRLF / LF endings wont matter if a windows user correctly
     // converts CRLF to LF upon commits; otherwise there are errors every line.

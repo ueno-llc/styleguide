@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/ueno-llc/styleguide#readme",
   "dependencies": {
+    "@ueno/eslint-plugin-internal": "1.0.1",
     "babel-eslint": "8.0.1",
     "chai": "4.1.2",
     "eslint-config-airbnb": "16.0.0",
@@ -27,7 +28,6 @@
     "eslint-import-resolver-webpack": "0.8.3",
     "eslint-plugin-flowtype": "2.36.0",
     "eslint-plugin-import": "2.7.0",
-    "eslint-plugin-internal": "1.0.1",
     "eslint-plugin-jsx-a11y": "6.0.2",
     "eslint-plugin-react": "7.4.0",
     "eslint-plugin-react-native": "3.1.0"

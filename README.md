@@ -1,7 +1,5 @@
 # Ueno Styleguide
 
-[![Travis](https://img.shields.io/travis/ueno-llc/eslint-config.svg?maxAge=2592000)](https://travis-ci.org/ueno-llc/styleguide)
-
 ## Usage
 
 We use the same [eslint](http://eslint.org/) and [stylelint](https://stylelint.io/) configurations for all of our projects. They ensure that we write code the same way from project to project.

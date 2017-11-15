@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ueno-llc/stylelint-config.git"
+    "url": "git+https://github.com/ueno-llc/styleguide.git"
   },
   "keywords": [
     "@ueno/stylelint-config"
@@ -16,9 +16,9 @@
   "author": "ueno. <hi@ueno.co> (http://ueno.co)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ueno-llc/stylelint-config/issues"
+    "url": "https://github.com/ueno-llc/styleguide/issues"
   },
-  "homepage": "https://github.com/ueno-llc/stylelint-config#readme",
+  "homepage": "https://github.com/ueno-llc/styleguide#readme",
   "dependencies": {
     "chai": "4.1.2",
     "stylelint-config-primer": "2.1.0",

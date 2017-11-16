@@ -43,6 +43,9 @@ module.exports = {
     // Allow useful console logging
     'no-console': ['error', { allow: ['info', 'warn', 'error'] }],
 
+    // Only one empty line allow
+    'no-multiple-empty-lines': ['error', { 'max': 1 }],
+
     // Allow ++ in for loops
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
 

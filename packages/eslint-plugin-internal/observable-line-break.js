@@ -73,6 +73,10 @@ module.exports = {
       node.body.forEach((el) => {
         if (el.type === 'ClassProperty') {
           if (el.decorators) {
+            if (!el.value) {
+              return;
+            }
+
             checkObservable(el.decorators[0], el.value, node);
           }
         }

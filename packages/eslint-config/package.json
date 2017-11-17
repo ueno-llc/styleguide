@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/ueno-llc/styleguide#readme",
   "dependencies": {
-    "@ueno/eslint-plugin-internal": "1.0.1",
+    "@ueno/eslint-plugin-internal": "1.0.2",
     "babel-eslint": "8.0.1",
     "chai": "4.1.2",
     "eslint-config-airbnb": "16.0.0",

@@ -7,7 +7,7 @@
 ## Installation
 
 ```bash
-npm install @ueno/stylelint-config
+yarn add @ueno/stylelint-config
 ```
 
 ## Usage
@@ -25,8 +25,8 @@ Reference the config in your `.stylelintrc`:
 ```bash
 git clone https://github.com/ueno-llc/styleguide
 cd styleguide/packages/stylelint-config
-npm install
-npm test
+yarn install
+yarn test
 ```
 
 ## License

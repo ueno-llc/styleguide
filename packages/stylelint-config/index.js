@@ -3,7 +3,7 @@
 module.exports = {
   extends: 'stylelint-config-primer',
   plugins: [
-    'stylelint-order'
+    'stylelint-order',
   ],
   rules: {
     'string-quotes': 'single',
@@ -15,8 +15,8 @@ module.exports = {
         {
           order: 'flexible',
           properties: [
-            'content'
-          ]
+            'content',
+          ],
         },
         {
           order: 'flexible',
@@ -52,8 +52,8 @@ module.exports = {
             'grid-template',
             'grid-template-areas',
             'grid-template-columns',
-            'grid-template-rows'
-          ]
+            'grid-template-rows',
+          ],
         },
         {
           order: 'flexible',
@@ -63,15 +63,15 @@ module.exports = {
             'right',
             'bottom',
             'left',
-            'z-index'
-          ]
+            'z-index',
+          ],
         },
         {
           order: 'flexible',
           properties: [
             'visibility',
-            'opacity'
-          ]
+            'opacity',
+          ],
         },
         {
           order: 'flexible',
@@ -85,8 +85,8 @@ module.exports = {
             'padding-top',
             'padding-right',
             'padding-bottom',
-            'padding-left'
-          ]
+            'padding-left',
+          ],
         },
         {
           order: 'flexible',
@@ -97,8 +97,8 @@ module.exports = {
             'height',
             'max-height',
             'min-height',
-            'overflow'
-          ]
+            'overflow',
+          ],
         },
         {
           order: 'flexible',
@@ -118,16 +118,16 @@ module.exports = {
             'text-align',
             'letter-spacing',
             'white-space',
-            'vertical-align'
-          ]
+            'vertical-align',
+          ],
         },
         {
           order: 'flexible',
           properties: [
             'cursor',
             'user-select',
-            'pointer-events'
-          ]
+            'pointer-events',
+          ],
         },
         {
           order: 'flexible',
@@ -142,13 +142,13 @@ module.exports = {
             'border-top-left-radius',
             'border-top-right-radius',
             'border-bottom-right-radius',
-            'border-bottom-left-radius'
-          ]
-        }
+            'border-bottom-left-radius',
+          ],
+        },
       ],
       {
-        unspecified: 'bottom'
-      }
-    ]
-  }
+        unspecified: 'bottom',
+      },
+    ],
+  },
 };

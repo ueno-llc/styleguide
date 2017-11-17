@@ -4,7 +4,7 @@ module.exports = {
   parser: 'babel-eslint',
   extends: [
     'airbnb-base',
-    require.resolve('./rules/base'),
+    require.resolve('./base/index'),
   ],
   settings: {
     'import/resolver': {
@@ -15,8 +15,8 @@ module.exports = {
         ],
         moduleDirectory: [
           'node_modules',
-        ]
-      }
-    }
-  }
-}
+        ],
+      },
+    },
+  },
+};

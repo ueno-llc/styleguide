@@ -1,11 +1,15 @@
 {
-	"scripts": {
-		"bootstrap": "lerna bootstrap",
-		"postinstall": "npm run bootstrap",
-		"publish": "lerna publish",
-		"test": "lerna run test"
-	},
-	"devDependencies": {
-		"lerna": "^2.0.0"
-	}
+  "license": "MIT",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "postinstall": "npm run bootstrap",
+    "publish": "lerna publish",
+    "test": "lerna run test",
+    "lint": "eslint packages"
+  },
+  "devDependencies": {
+    "@ueno/eslint-config": "file:packages/eslint-config",
+    "eslint": "4.9.0",
+    "lerna": "^2.0.0"
+  }
 }

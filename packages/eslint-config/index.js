@@ -17,7 +17,8 @@ module.exports = {
     'react/jsx-filename-extension': 0,
 
     // Enforce new line when declaring jsx multiline
-    'react/jsx-wrap-multilines': [2, { declaration: 'parens-new-line' }],
+    // Remove this rule for the moment since it breaks Atom
+    // 'react/jsx-wrap-multilines': [2, { declaration: 'parens-new-line' }],
 
     // We don't force the use of stateless function when no refs, props, etc… are used
     'react/prefer-stateless-function': 0,

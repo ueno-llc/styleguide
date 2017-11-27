@@ -17,7 +17,7 @@ module.exports = {
     'react/jsx-filename-extension': 0,
 
     // Enforce new line when declaring jsx multiline
-    // Remove this rule for the moment since it breaks Atom
+    // https://github.com/yannickcr/eslint-plugin-react/issues/1469
     // 'react/jsx-wrap-multilines': [2, { declaration: 'parens-new-line' }],
 
     // We don't force the use of stateless function when no refs, props, etc… are used

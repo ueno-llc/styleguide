@@ -24,8 +24,8 @@ module.exports = {
     // to rename one of the default import
     'import/no-named-as-default': 0,
 
-    // Force a line break after the observable statement
-    '@ueno/internal/observable-line-break': 2,
+    // Force a line break after the decorator statement
+    '@ueno/internal/decorator-line-break': 2,
 
     // Force a blank line after the class declaration
     '@ueno/internal/padded-blocks': ['error', { classes: 'top' }],

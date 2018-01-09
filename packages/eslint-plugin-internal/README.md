@@ -24,7 +24,7 @@ String option:
 
 Example:
 
-**`'@ueno/internal/observable-line-break': 2` Will requires to add a line break after a decorator declaration**
+**`'@ueno/internal/decorator-line-break': 2` Will requires to add a line break after a decorator declaration**
 
 Wrong 👎
 

@@ -2,7 +2,7 @@
 
 module.exports = {
   rules: {
-    'observable-line-break': require('./observable-line-break'),
+    'decorator-line-break': require('./decorator-line-break'),
     'padded-blocks': require('./padded-blocks'),
   },
 };

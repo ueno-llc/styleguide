@@ -1,5 +1,5 @@
 /**
- * @fileoverview A rule to ensure a line break after mobx @observable declaration.
+ * @fileoverview A rule to ensure a line break after @decorator declaration.
  * @author Ueno. <https://github.com/ueno-llc>
  */
 
@@ -14,7 +14,7 @@
 module.exports = {
   meta: {
     docs: {
-      description: 'require a line break after mobx @observable',
+      description: 'require a line break after @decorator',
       category: 'Stylistic Issues',
       recommended: false,
     },
@@ -29,8 +29,8 @@ module.exports = {
   create(context) {
     const config = context.options[0] || 'always';
 
-    const ALWAYS_MESSAGE = '@observable must have a line break after his declaration.';
-    const NEVER_MESSAGE = '@observable must be inline with his value.';
+    const ALWAYS_MESSAGE = '@decorator must have a line break after his declaration.';
+    const NEVER_MESSAGE = '@decorator must be inline with his value.';
 
     /**
      * Checks the given decorator node to check if a line break is needed.
@@ -39,7 +39,7 @@ module.exports = {
      * @param {ASTNode} node The AST node of a BlockStatement.
      * @returns {void} undefined.
      */
-    function checkObservable(decorator, value, node) {
+    function checkDecorator(decorator, value, node) {
       const decoratorLine = decorator.loc.start.line;
       const decoratorColumn = decorator.loc.end.column;
       const valueLine = value.loc.start.line;
@@ -77,7 +77,7 @@ module.exports = {
               return;
             }
 
-            checkObservable(el.decorators[0], el.value, node);
+            checkDecorator(el.decorators[0], el.value, node);
           }
         }
       });

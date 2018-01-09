@@ -1,6 +1,6 @@
 {
   "name": "@ueno/eslint-plugin-internal",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Ueno's custom eslint rules",
   "main": "index.js",
   "repository": {

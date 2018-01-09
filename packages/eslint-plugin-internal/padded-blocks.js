@@ -24,7 +24,7 @@ module.exports = {
     schema: [{
       oneOf: [
         {
-          enum: ['always', 'never'],
+          enum: ['always', 'never', 'top', 'bottom'],
         },
         {
           type: 'object',

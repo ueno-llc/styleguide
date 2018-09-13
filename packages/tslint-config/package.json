@@ -1,0 +1,33 @@
+{
+  "name": "@ueno/tslint-config",
+  "version": "1.2.8",
+  "description": "Ueno's tslint config",
+  "main": "vanilla.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ueno-llc/styleguide.git"
+  },
+  "keywords": [
+    "@ueno/tslint-config"
+  ],
+  "author": "ueno. <hi@ueno.co> (http://ueno.co)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ueno-llc/styleguide/issues"
+  },
+  "homepage": "https://github.com/ueno-llc/styleguide#readme",
+  "dependencies": {
+    "tslint-microsoft-contrib": "5.2.1",
+    "tslint-origin-ordered-imports-rule": "1.1.2",
+    "typescript": "3.0.3"
+  },
+  "peerDependencies": {
+    "typescript": "3.0.3"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}

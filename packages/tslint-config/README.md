@@ -38,15 +38,6 @@ We have 3 differents configs, reference the one you need in your `.tslint.json`
 }
 ```
 
-## Local Development
-
-```bash
-git clone https://github.com/ueno-llc/styleguide
-cd styleguide/packages/tslint-config
-yarn install
-yarn test
-```
-
 ## License
 
 MIT &copy; [ueno.](http://ueno.co)

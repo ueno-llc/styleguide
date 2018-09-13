@@ -2,7 +2,7 @@
 
 > Ueno's eslint config
 
-[![npm](https://img.shields.io/npm/v/@ueno/eslint-config.svg?maxAge=2592000)](https://www.npmjs.com/package/@ueno/eslint-config)
+[![npm](https://img.shields.io/npm/v/@ueno/eslint-config.svg)](https://www.npmjs.com/package/@ueno/eslint-config)
 
 ## Installation
 
@@ -12,37 +12,30 @@ yarn add @ueno/eslint-config
 
 ## Usage
 
-Reference the config in your `.eslintrc`:
+We have 3 differents configs, reference the one you need in your `.eslintrc`
+
+**For Vanilla.js**
 
 ```json
 {
-  "extends": "@ueno"
+  "extends": "@ueno/eslint-config/vanilla"
 }
 ```
 
-If you don't want to include the React rules:
+**For React.js**
 
 ```json
 {
-  "extends": "@ueno/eslint-config/base"
+  "extends": "@ueno/eslint-config/react"
 }
 ```
 
-There's also a React Native flavor:
+**For React-native**
 
 ```json
 {
   "extends": "@ueno/eslint-config/react-native"
 }
-```
-
-## Local Development
-
-```bash
-git clone https://github.com/ueno-llc/styleguide
-cd styleguide/packages/eslint-config
-yarn install
-yarn test
 ```
 
 ## License

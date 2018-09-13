@@ -4,7 +4,7 @@ module.exports = {
   parser: 'babel-eslint',
   extends: [
     'airbnb-base',
-    require.resolve('./base/index'),
+    require.resolve('./shared'),
   ],
   plugins: [
     'react',

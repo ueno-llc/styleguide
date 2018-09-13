@@ -1,0 +1,42 @@
+0 silly input [ 'test' ]
+1 silly flags { _: [ 'run' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   script: 'test',
+1 silly flags   args: [] }
+2 verbose rootPath /Users/jeremy/Ueno/styleguide
+3 info version 2.5.1
+4 info versioning independent
+5 silly existsSync /Users/jeremy/Ueno/styleguide/VERSION
+6 silly initialize attempt
+7 silly initialize success
+8 silly execute attempt
+9 silly runScriptInDir test [] eslint-plugin-internal
+10 silly getExecOpts { cwd: '/Users/jeremy/Ueno/styleguide/packages/eslint-plugin-internal' }
+11 silly runScriptInDir test [] stylelint-config
+12 silly getExecOpts { cwd: '/Users/jeremy/Ueno/styleguide/packages/stylelint-config' }
+13 silly runScriptInDir test [] tslint-config
+14 silly getExecOpts { cwd: '/Users/jeremy/Ueno/styleguide/packages/tslint-config' }
+15 error test Errored while running script in '@ueno/tslint-config'
+16 error execute callback with error
+17 error Error: Command failed: npm run test
+17 error sh: mocha: command not found
+17 error npm ERR! file sh
+17 error npm ERR! code ELIFECYCLE
+17 error npm ERR! errno ENOENT
+17 error npm ERR! syscall spawn
+17 error npm ERR! @ueno/tslint-config@1.2.8 test: `mocha`
+17 error npm ERR! spawn ENOENT
+17 error npm ERR!
+17 error npm ERR! Failed at the @ueno/tslint-config@1.2.8 test script.
+17 error npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+17 error
+17 error npm ERR! A complete log of this run can be found in:
+17 error npm ERR!     /Users/jeremy/.npm/_logs/2018-09-13T16_04_21_639Z-debug.log
+17 error
+17 error > @ueno/tslint-config@1.2.8 test /Users/jeremy/Ueno/styleguide/packages/tslint-config
+17 error > mocha
+17 error
+17 error
+17 error     at Promise.all.then.arr (/Users/jeremy/Ueno/styleguide/node_modules/execa/index.js:236:11)
+17 error     at <anonymous>

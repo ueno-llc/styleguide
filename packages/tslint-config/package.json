@@ -2,10 +2,6 @@
   "name": "@ueno/tslint-config",
   "version": "1.2.8",
   "description": "Ueno's tslint config",
-  "main": "vanilla.js",
-  "scripts": {
-    "test": "mocha"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ueno-llc/styleguide.git"

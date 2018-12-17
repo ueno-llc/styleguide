@@ -1,7 +1,5 @@
 # @ueno/stylelint-config
 
-> Ueno's stylelint config
-
 [![npm](https://img.shields.io/npm/v/@ueno/stylelint-config.svg)](https://www.npmjs.com/package/@ueno/stylelint-config)
 
 ## Installation

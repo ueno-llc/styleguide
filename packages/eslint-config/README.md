@@ -1,7 +1,5 @@
 # @ueno/eslint-config
 
-> Ueno's eslint config
-
 [![npm](https://img.shields.io/npm/v/@ueno/eslint-config.svg)](https://www.npmjs.com/package/@ueno/eslint-config)
 
 ## Installation
@@ -14,7 +12,7 @@ yarn add @ueno/eslint-config
 
 We have 3 differents configs, reference the one you need in your `.eslintrc`
 
-**For Vanilla.js**
+**For Vanilla javascript**
 
 ```json
 {
@@ -22,7 +20,7 @@ We have 3 differents configs, reference the one you need in your `.eslintrc`
 }
 ```
 
-**For React.js**
+**For React**
 
 ```json
 {
@@ -30,7 +28,7 @@ We have 3 differents configs, reference the one you need in your `.eslintrc`
 }
 ```
 
-**For React-native**
+**For React Native**
 
 ```json
 {

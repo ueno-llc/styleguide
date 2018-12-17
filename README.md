@@ -10,14 +10,12 @@
 There is 3 npm packages in this repository:
 
 - eslint [Documentation](./packages/eslint-config/README.md)
-- tslint (soon)
+- tslint [Documentation](./packages/tslint-config/README.md)
 - stylelint [Documentation](./packages/stylelint-config/README.md)
 
 ## Local Development
 
-This is a [Lerna](https://github.com/lerna/lerna)-powered monorepo containing the npm packages for our eslint and stylelint configs.
-
-To edit the configs locally:
+This is a [Lerna](https://github.com/lerna/lerna)-powered monorepo. To edit the configs locally:
 
 ```bash
 git clone git@github.com:ueno-llc/styleguide

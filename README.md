@@ -5,57 +5,13 @@
 [![logo](https://user-images.githubusercontent.com/937328/50091101-49a12b00-0202-11e9-88ab-7f49a59e1c49.png)](https://ueno.co/contact/?utm_source=github&utm_campaign=styleguide)
 <br /><br />
 
-## Styleguide
-
 ## Usage
 
-We use the same [eslint](http://eslint.org/) and [stylelint](https://stylelint.io/) configurations for all of our projects. They ensure that we write code the same way from project to project.
+There is 3 npm packages in this repository:
 
-Our [starter kit](https://github.com/ueno-llc/starter-kit-universally/) has both built-in, but you can also add them to your own project:
-
-#### eslint
-
-```bash
-yarn add @ueno/stylelint-config
-```
-
-Reference the config in your `.eslintrc`:
-
-```json
-{
-  "extends": "@ueno"
-}
-```
-
-If you don't want to include the React rules:
-
-```json
-{
-  "extends": "@ueno/eslint-config/base"
-}
-```
-
-There's also a React Native flavor:
-
-```json
-{
-  "extends": "@ueno/eslint-config/react-native"
-}
-```
-
-#### stylelint
-
-```bash
-yarn add @ueno/stylelint-config
-```
-
-Reference the config in your `.stylelintrc`:
-
-```json
-{
-  "extends": "@ueno/stylelint-config"
-}
-```
+- eslint [Documentation](./packages/eslint-config/README.md)
+- tslint (soon)
+- stylelint [Documentation](./packages/stylelint-config/README.md)
 
 ## Local Development
 

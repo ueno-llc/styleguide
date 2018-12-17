@@ -3,9 +3,6 @@
   "version": "1.0.4",
   "description": "Ueno's stylelint config",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ueno-llc/styleguide.git"
@@ -20,12 +17,8 @@
   },
   "homepage": "https://github.com/ueno-llc/styleguide#readme",
   "dependencies": {
-    "chai": "4.1.2",
     "stylelint-config-primer": "2.2.1",
     "stylelint-order": "0.7.0"
-  },
-  "devDependencies": {
-    "mocha": "3.5.3"
   },
   "peerDependencies": {
     "stylelint": "8.2.0"

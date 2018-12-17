@@ -1,4 +1,4 @@
 {
-  "extends": "@ueno/eslint-config/base",
+  "extends": "@ueno/eslint-config/vanilla",
   "rules": { "strict": 0 },
 }

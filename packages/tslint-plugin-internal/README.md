@@ -1,10 +1,10 @@
-# @ueno/eslint-plugin-internal
+# @ueno/tslint-plugin-internal
 
-[![npm](https://img.shields.io/npm/v/@ueno/eslint-plugin-internal.svg)](https://www.npmjs.com/package/@ueno/eslint-plugin-internal)
+[![npm](https://img.shields.io/npm/v/@ueno/tslint-plugin-internal.svg)](https://www.npmjs.com/package/@ueno/tslint-plugin-internal)
 
 ## Why?
 
-We needed some customs rules to add to our lint config, to align with our code style. This package is used in the [@ueno/eslint-config](https://github.com/ueno-llc/styleguide/tree/master/packages/eslint-config) to add two custom rules to our config.
+We needed some customs rules to add to our lint config, to align with our code style. This package is used in the [@ueno/tslint-config](https://github.com/ueno-llc/styleguide/tree/master/packages/tslint-config) to add two custom rules to our config.
 
 ## Rules
 

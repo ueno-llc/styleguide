@@ -1,0 +1,19 @@
+{
+  "name": "@ueno/eslint-plugin-internal",
+  "version": "1.0.5",
+  "description": "Ueno's custom eslint rules",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ueno-llc/styleguide.git"
+  },
+  "keywords": [
+    "@ueno/eslint-plugin-internal"
+  ],
+  "author": "ueno. <hi@ueno.co> (http://ueno.co)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ueno-llc/styleguide/issues"
+  },
+  "homepage": "https://github.com/ueno-llc/styleguide#readme"
+}

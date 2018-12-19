@@ -12,17 +12,9 @@ yarn add @ueno/tslint-config
 
 ### TSLint
 
-We have 3 differents configs, reference the one you need in your `tslint.json`
+We have 1 config file to extend to your `tslint.json` file.
 
-**For Vanilla javascript**
-
-```json
-{
-  "extends": "@ueno/tslint-config/vanilla"
-}
-```
-
-**For React**
+**For React and React Native**
 
 ```json
 {
@@ -30,17 +22,9 @@ We have 3 differents configs, reference the one you need in your `tslint.json`
 }
 ```
 
-**For React Native**
-
-```json
-{
-  "extends": "@ueno/tslint-config/react-native"
-}
-```
-
 ### TSConfig
 
-We also have 2 differents `tsconfig.json` that you can extends to your `tsconfig.json` file.
+We have 2 differents `tsconfig.json` that you can extends to your `tsconfig.json` file.
 
 **For React**
 
@@ -50,8 +34,6 @@ We also have 2 differents `tsconfig.json` that you can extends to your `tsconfig
   "compilerOptions": {
     "baseUrl": "./src"
   },
-  "include": ["./src"],
-  "exclude": ["./node_modules"]
 }
 ```
 
@@ -63,8 +45,6 @@ We also have 2 differents `tsconfig.json` that you can extends to your `tsconfig
   "compilerOptions": {
     "baseUrl": "./src"
   },
-  "include": ["./src"],
-  "exclude": ["./node_modules"]
 }
 ```
 

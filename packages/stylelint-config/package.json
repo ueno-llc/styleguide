@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/ueno-llc/styleguide#readme",
   "dependencies": {
-    "stylelint-config-primer": "2.2.1",
-    "stylelint-order": "0.7.0"
+    "stylelint-config-primer": "3.0.1",
+    "stylelint-order": "2.0.0"
   },
   "peerDependencies": {
     "stylelint": "^8.2.0 || ^9.0.0"

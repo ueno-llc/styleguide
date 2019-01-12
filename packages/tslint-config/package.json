@@ -16,17 +16,14 @@
   },
   "homepage": "https://github.com/ueno-llc/styleguide#readme",
   "dependencies": {
-    "tslint": "5.12.0",
+    "tslint": "5.12.1",
     "tslint-microsoft-contrib": "6.0.0",
     "tslint-origin-ordered-imports-rule": "1.1.2",
     "tslint-react": "3.6.0",
     "typescript": "3.2.2"
   },
   "peerDependencies": {
-    "tslint": "5.12.0",
+    "tslint": "5.12.1",
     "typescript": "3.2.2"
-  },
-  "engines": {
-    "node": ">=4"
   }
 }

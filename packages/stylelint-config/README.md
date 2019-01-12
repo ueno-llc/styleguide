@@ -1,6 +1,6 @@
 # @ueno/stylelint-config
 
-[![npm](https://img.shields.io/npm/v/@ueno/stylelint-config.svg?maxAge=2592000)](https://www.npmjs.com/package/@ueno/stylelint-config)
+[![npm](https://img.shields.io/npm/v/@ueno/stylelint-config.svg)](https://www.npmjs.com/package/@ueno/stylelint-config)
 
 ## Installation
 

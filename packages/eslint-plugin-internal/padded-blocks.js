@@ -107,7 +107,6 @@ module.exports = {
       return second.loc.start.line - first.loc.end.line >= 2;
     }
 
-
     /**
      * Checks if the given token has a blank line after it.
      * @param {Token} token The token to check.

@@ -1,30 +1,29 @@
 {
-  "name": "@ueno/stylelint-config",
-  "version": "1.0.5",
-  "description": "Ueno's stylelint config",
-  "main": "index.js",
+  "name": "@ueno/tslint-config",
+  "version": "1.2.8",
+  "description": "Ueno's tslint config",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ueno-llc/styleguide.git"
   },
   "keywords": [
-    "stylelint",
-    "ueno"
+    "@ueno/tslint-config"
   ],
   "author": "ueno. <hi@ueno.co> (http://ueno.co)",
-  "contributors": [
-    "Jeremy Barbet <jeremy@ueno.co>"
-  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ueno-llc/styleguide/issues"
   },
   "homepage": "https://github.com/ueno-llc/styleguide#readme",
   "dependencies": {
-    "stylelint-config-primer": "3.0.1",
-    "stylelint-order": "2.0.0"
+    "tslint": "5.12.1",
+    "tslint-microsoft-contrib": "6.0.0",
+    "tslint-origin-ordered-imports-rule": "1.1.2",
+    "tslint-react": "3.6.0",
+    "typescript": "3.2.2"
   },
   "peerDependencies": {
-    "stylelint": "^8.2.0 || ^9.0.0"
+    "tslint": "5.12.1",
+    "typescript": "3.2.2"
   }
 }

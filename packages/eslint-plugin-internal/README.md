@@ -6,12 +6,9 @@
 
 We needed some customs rules to add to our lint config, to align with our code style. This package is used in the [@ueno/eslint-config](https://github.com/ueno-llc/styleguide/tree/master/packages/eslint-config) to add two custom rules to our config.
 
-## Rules
-
-* @ueno/internal/decorator-line-break: Force a line break after the decorator statement
-* @ueno/internal/padded-blocks: Force a blank line after the class declaration
-
 ## @ueno/internal/decorator-line-break
+
+> Force a line break after the decorator statement
 
 This rule has one option, which can be a string option.
 
@@ -38,6 +35,8 @@ myValue = true;
 ```
 
 ## @ueno/internal/padded-blocks
+
+> Force a blank line after the class declaration
 
 This rule has two options, which can be a string option or an object option.
 

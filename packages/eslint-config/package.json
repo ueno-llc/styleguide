@@ -1,6 +1,6 @@
 {
   "name": "@ueno/eslint-config",
-  "version": "1.2.8",
+  "version": "1.3.0",
   "description": "Ueno's eslint config",
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/ueno-llc/styleguide#readme",
   "dependencies": {
-    "@ueno/eslint-plugin-internal": "1.0.5",
+    "@ueno/eslint-plugin-internal": "^1.0.5",
     "babel-eslint": "8.0.1",
     "eslint-config-airbnb": "17.1.0",
     "eslint-config-airbnb-base": "13.1.0",

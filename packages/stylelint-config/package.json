@@ -1,6 +1,6 @@
 {
   "name": "@ueno/stylelint-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Ueno's stylelint config",
   "main": "index.js",
   "repository": {
@@ -8,19 +8,23 @@
     "url": "git+https://github.com/ueno-llc/styleguide.git"
   },
   "keywords": [
-    "@ueno/stylelint-config"
+    "stylelint",
+    "ueno"
   ],
   "author": "ueno. <hi@ueno.co> (http://ueno.co)",
+  "contributors": [
+    "Jeremy Barbet <jeremy@ueno.co>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ueno-llc/styleguide/issues"
   },
   "homepage": "https://github.com/ueno-llc/styleguide#readme",
   "dependencies": {
-    "stylelint-config-primer": "2.2.1",
-    "stylelint-order": "0.7.0"
+    "stylelint-config-primer": "3.0.1",
+    "stylelint-order": "2.0.0"
   },
   "peerDependencies": {
-    "stylelint": "8.2.0"
+    "stylelint": "^8.2.0 || ^9.0.0"
   }
 }

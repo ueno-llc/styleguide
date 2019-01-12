@@ -1,8 +1,8 @@
-[![logo](https://user-images.githubusercontent.com/937328/50094541-51b19880-020b-11e9-89dd-2de5281c2406.png)](https://ueno.co/?utm_source=github&utm_campaign=styleguide)
+[![logo](https://user-images.githubusercontent.com/937328/50185354-72631680-030f-11e9-8c9f-1982c55bbe03.png)](https://ueno.co/?utm_source=github&utm_campaign=styleguide)
 <br /><br />
-![banner](https://user-images.githubusercontent.com/937328/50094539-51190200-020b-11e9-9097-ff96dab9df96.png)
+![banner](https://user-images.githubusercontent.com/937328/50185358-72631680-030f-11e9-85c4-de1eb9ad9b03.png)
 <br /><br />
-[![logo](https://user-images.githubusercontent.com/937328/50091101-49a12b00-0202-11e9-88ab-7f49a59e1c49.png)](https://ueno.co/contact/?utm_source=github&utm_campaign=styleguide)
+[![about](https://user-images.githubusercontent.com/937328/50184746-da186200-030d-11e9-8edb-3227e9300524.png)](https://ueno.co/contact/?utm_source=github&utm_campaign=styleguide)
 <br /><br />
 
 ## Usage

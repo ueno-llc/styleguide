@@ -7,11 +7,12 @@
 
 ## Usage
 
-There is 3 npm packages in this repository:
+There is 4 npm packages in this repository:
 
-- eslint [Documentation](./packages/eslint-config/README.md)
-- tslint [Documentation](./packages/tslint-config/README.md)
-- stylelint [Documentation](./packages/stylelint-config/README.md)
+- eslint-config [Documentation](./packages/eslint-config/README.md)
+- tslint-config [Documentation](./packages/tslint-config/README.md)
+- stylelint-config [Documentation](./packages/stylelint-config/README.md)
+- eslint-plugin-internal [Documentation](./packages/eslint-plugin-internal/README.md)
 
 ## Local Development
 

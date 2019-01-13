@@ -17,7 +17,7 @@
   "homepage": "https://github.com/ueno-llc/styleguide#readme",
   "dependencies": {
     "tslint": "5.12.1",
-    "tslint-microsoft-contrib": "6.0.0",
+    "tslint-config-airbnb": "5.11.1",
     "tslint-origin-ordered-imports-rule": "1.1.2",
     "tslint-react": "3.6.0",
     "typescript": "3.2.2"

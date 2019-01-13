@@ -1,84 +1,37 @@
 {
   "extends": [
-    "tslint-microsoft-contrib",
-    "tslint-origin-ordered-imports-rule",
-    "tslint-react"
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-airbnb",
+    "tslint-origin-ordered-imports-rule"
   ],
   "rulesDirectory": [
     "node_modules/tslint-origin-ordered-imports-rule/dist"
   ],
   "rules": {
+    "array-type": false,
     "align": false,
-    "completed-docs": false,
-    "export-name": false,
+    "ordered-imports": false,
+    "origin-ordered-imports": [true, "one-blank-line"],
+    "object-literal-sort-keys": false,
+    "max-line-length": [true, { "limit": 140, "ignore-pattern": "^import |^export {(.*?)}" }],
+    "member-access": false,
+    "member-ordering": false,
+    "no-default-export": true,
+    "no-var-requires": false,
+    "variable-name": false,
     "import-name": false,
+    "import-spacing": true,
     "jsx-boolean-value": false,
     "jsx-no-multiline-js": false,
     "jsx-wrap-multiline": true,
-    "max-func-body-length": false,
-    "max-line-length": [
-      true,
-      { "limit": 140, "ignore-pattern": "^import |^export {(.*?)}" }
-    ],
-    "member-access": false,
-    "missing-jsdoc": false,
-    "newline-per-chained-call": false,
-    "no-any": false,
-    "no-backbone-get-set-outside-model": false,
-    "no-console": [
-      true,
-      "debug",
-      "exception",
-      "log",
-      "time",
-      "trace"
-    ],
-    "no-default-export": false,
-    "no-implicit-dependencies": [
-      true,
-      [
-        "assets",
-        "components",
-        "containers",
-        "graphql",
-        "locales",
-        "pages",
-        "prismic",
-        "routes",
-        "screens",
-        "store",
-        "styles",
-        "typings",
-        "templates",
-        "utils",
-        "!file-loader!assets"
-      ]
-    ],
-    "no-floating-promises": false,
-    "no-null-keyword": false,
-    "no-relative-imports": false,
-    "no-require-imports": false,
-    "no-submodule-imports": false,
-    "no-unsafe-any": false,
-    "ordered-imports": false,
-    "origin-ordered-imports": [
-      true,
-      "one-blank-line"
-    ],
-    "quotemark": [
-      true,
-      "single",
-      "jsx-double"
-    ],
-    "strict-boolean-expressions": false,
-    "trailing-comma": true,
-    "typedef": false,
-    "variable-name": [
-      true,
-      "allow-pascal-case",
-      "ban-keywords",
-      "check-format"
-    ]
+    "no-boolean-literal-compare": false,
+    "no-console": [true, "debug", "log"],
+    "no-else-after-return": [true, "allow-else-if"],
+    "prefer-array-literal": false,
+    "object-shorthand-properties-first": false,
+    "indent": [true, "spaces", 2],
+    "interface-name": true
   },
   "linterOptions": {
     "exclude": [

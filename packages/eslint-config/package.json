@@ -16,10 +16,10 @@
   },
   "homepage": "https://github.com/ueno-llc/styleguide#readme",
   "dependencies": {
-    "@ueno/eslint-plugin-internal": "^1.0.5",
+    "@ueno/eslint-plugin-internal": "1.0.5",
     "babel-eslint": "8.0.1",
-    "eslint-config-airbnb": "17.1.0",
-    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-config-airbnb": "16.0.0",
+    "eslint-config-airbnb-base": "12.1.0",
     "eslint-import-resolver-webpack": "0.8.3",
     "eslint-plugin-import": "2.7.0",
     "eslint-plugin-jsx-a11y": "6.0.2",

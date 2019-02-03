@@ -9,18 +9,40 @@
 
 There is 4 npm packages in this repository:
 
-- eslint-config [Documentation](./packages/eslint-config/README.md)
-- tslint-config [Documentation](./packages/tslint-config/README.md)
-- stylelint-config [Documentation](./packages/stylelint-config/README.md)
-- eslint-plugin-internal [Documentation](./packages/eslint-plugin-internal/README.md)
+- eslint-config [Documentation](./packages/eslint-config)
+- tslint-config [Documentation](./packages/tslint-config)
+- stylelint-config [Documentation](./packages/stylelint-config)
+- eslint-plugin-internal [Documentation](./packages/eslint-plugin-internal)
 
-## Local Development
+## Development
 
-This is a [Lerna](https://github.com/lerna/lerna)-powered monorepo. To edit the configs locally:
+This is a [Lerna](https://github.com/lerna/lerna)-powered monorepo.
+
+If you want to edit, for example, `tslint-config` and try it on your project:
 
 ```bash
 git clone git@github.com:ueno-llc/styleguide
+cd packages/tslint-config
 yarn install
+yarn link
 ```
 
-To publish a new version, make sure your Git tree is clean, then run `npm run publish`. Lerna will prompt you to set new version numbers for the packages that have changed, and then it will tag/commit and publish the new packages.
+In your project do:
+```bash
+cd my-project
+yarn link "@ueno/tslint-config"
+```
+
+## Publishing
+
+You can either decide to bump all 4 packages by running:
+
+```bash
+yarn run publish
+```
+
+or if you just want to publish a single package (tslint-config for example):
+
+```bash
+yarn run publish --scope="@ueno/tslint-config"
+```

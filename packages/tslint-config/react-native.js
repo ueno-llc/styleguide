@@ -25,6 +25,7 @@ module.exports = {
     'import-name': false,
     'import-spacing': true,
     'jsx-boolean-value': false,
+    'jsx-no-lambda': false,
     'jsx-no-multiline-js': false,
     'jsx-wrap-multiline': true,
     'no-boolean-literal-compare': false,

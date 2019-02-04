@@ -19,6 +19,7 @@ module.exports = {
     'variable-name': [true, 'allow-pascal-case', 'ban-keywords', 'check-format'],
     'max-line-length': [true, { limit: 140, 'ignore-pattern': '^import |^export {(.*?)}' }],
     'jsx-boolean-value': false,
+    'jsx-no-lambda': false,
     'jsx-no-multiline-js': false,
   },
   linterOptions: {

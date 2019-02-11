@@ -1,6 +1,6 @@
 {
   "name": "@ueno/tslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Ueno's tslint config",
   "repository": {
     "type": "git",

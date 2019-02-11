@@ -21,7 +21,7 @@ module.exports = {
     'member-ordering': false,
     'no-default-export': true,
     'no-var-requires': false,
-    'variable-name': false,
+    'variable-name': [true, 'ban-keywords', 'check-format', 'allow-leading-underscore', 'allow-pascal-case'],
     'import-name': false,
     'import-spacing': true,
     'jsx-boolean-value': false,

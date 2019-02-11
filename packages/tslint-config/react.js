@@ -16,7 +16,7 @@ module.exports = {
     'object-literal-sort-keys': false,
     'ordered-imports': false,
     'origin-ordered-imports': [true, 'one-blank-line'],
-    'variable-name': [true, 'allow-pascal-case', 'ban-keywords', 'check-format'],
+    'variable-name': [true, 'ban-keywords', 'check-format', 'allow-leading-underscore', 'allow-pascal-case'],
     'max-line-length': [true, { limit: 140, 'ignore-pattern': '^import |^export {(.*?)}' }],
     'jsx-boolean-value': false,
     'jsx-no-lambda': false,

@@ -160,8 +160,6 @@ module.exports = {
             'line-break',
             'line-height',
 
-            'color',
-
             'text-align',
             'text-align-last',
             'text-combine-upright',
@@ -202,6 +200,7 @@ module.exports = {
             'background-repeat-x',
             'background-repeat-y',
             'background-size',
+            'color',
             'opacity',
           ],
         },

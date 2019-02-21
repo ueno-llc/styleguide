@@ -204,27 +204,25 @@ module.exports = {
             'opacity',
           ],
         },
+
+        {
+          order: 'flexible',
+          properties: [
+            'transform',
+            'transform-box',
+            'transform-origin',
+            'transform-style',
+
+            'transition',
+            'transition-delay',
+            'transition-duration',
+            'transition-property',
+            'transition-timing-function',
+          ],
+        },
       ],
 
-      {
-        order: 'flexible',
-        properties: [
-          'transform',
-          'transform-box',
-          'transform-origin',
-          'transform-style',
-
-          'transition',
-          'transition-delay',
-          'transition-duration',
-          'transition-property',
-          'transition-timing-function',
-        ],
-      },
-
-      {
-        unspecified: 'bottom',
-      },
+      { unspecified: 'bottom' },
     ],
   },
 };

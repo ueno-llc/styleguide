@@ -5,7 +5,6 @@ module.exports = {
     'tslint:recommended',
     'tslint-react',
     'tslint-config-airbnb',
-    'tslint-origin-ordered-imports-rule',
   ],
   rulesDirectory: [
     path.join(path.dirname(require.resolve('tslint-origin-ordered-imports-rule'))),
@@ -13,8 +12,7 @@ module.exports = {
   rules: {
     'array-type': false,
     align: false,
-    'ordered-imports': false,
-    'origin-ordered-imports': [true, 'one-blank-line'],
+    'ordered-imports': true,
     'object-literal-sort-keys': false,
     'max-line-length': [true, { limit: 140, 'ignore-pattern': '^import |^export {(.*?)}' }],
     'member-access': false,

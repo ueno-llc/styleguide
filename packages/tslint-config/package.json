@@ -1,6 +1,6 @@
 {
   "name": "@ueno/tslint-config",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Ueno's tslint config",
   "repository": {
     "type": "git",
@@ -9,6 +9,10 @@
   "keywords": [
     "@ueno/tslint-config"
   ],
+  "contributors": [
+    "Jérémy Barbet <jeremgraph@gmail.com>",
+    "Birkir Gudjonsson <birkir.gudjonsson@gmail.com>"
+  ],
   "author": "ueno. <hi@ueno.co> (http://ueno.co)",
   "license": "MIT",
   "bugs": {
@@ -16,14 +20,13 @@
   },
   "homepage": "https://github.com/ueno-llc/styleguide#readme",
   "dependencies": {
-    "tslint": "5.12.1",
-    "tslint-config-airbnb": "5.11.1",
-    "tslint-origin-ordered-imports-rule": "1.1.2",
-    "tslint-react": "3.6.0",
-    "typescript": "3.2.2"
+    "tslint": "^5.12.1",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.2.2"
   },
   "peerDependencies": {
-    "tslint": "5.12.1",
-    "typescript": "3.2.2"
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.2"
   }
 }

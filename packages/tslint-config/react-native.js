@@ -6,9 +6,6 @@ module.exports = {
     'tslint-react',
     'tslint-config-airbnb',
   ],
-  rulesDirectory: [
-    path.join(path.dirname(require.resolve('tslint-origin-ordered-imports-rule'))),
-  ],
   rules: {
     'array-type': false,
     align: false,

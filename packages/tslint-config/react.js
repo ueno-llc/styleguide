@@ -22,6 +22,7 @@ module.exports = {
     'jsx-boolean-value': false,
     'jsx-no-lambda': false,
     'jsx-no-multiline-js': false,
+    'interface-name': true
   },
   linterOptions: {
     exclude: [

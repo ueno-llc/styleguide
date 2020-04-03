@@ -1,3 +1,7 @@
+# WARNING
+
+## This repository has been deprecated. We are now using stylelint/prettier/eslint/tslint-recommended configurations. We don't have enough time to keep maintaining our own rules/configs that are at the end really similar to the recommended' configurations.
+
 [![logo](https://user-images.githubusercontent.com/937328/50185354-72631680-030f-11e9-8c9f-1982c55bbe03.png)](https://ueno.co/?utm_source=github&utm_campaign=styleguide)
 <br /><br />
 ![banner](https://user-images.githubusercontent.com/937328/50185358-72631680-030f-11e9-85c4-de1eb9ad9b03.png)
